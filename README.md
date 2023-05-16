@@ -1,3 +1,3 @@
 # GraohQLReact_TraversyMedia
 
-Livesite: https://spacextracker.herokuapp.com/
+Livesite: https://spacextracker.up.railway.app/
