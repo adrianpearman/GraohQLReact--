@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "cd client; yarn start",
+    "client": "cd client; yarn run dev",
     "dev": "concurrently \"yarn run client \" \"yarn start server \""
   },
   "repository": {
@@ -21,14 +21,15 @@
   },
   "homepage": "https://github.com/adrianpearman/GraohQLReact_TraversyMedia#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "concurrently": "^4.1.0",
+    "axios": "^1.4.0",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "express-graphql": "^0.7.1",
-    "graphql": "^14.0.2"
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {
-    "nodemon": "^1.18.6"
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
   }
 }
